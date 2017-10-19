@@ -10,7 +10,7 @@ namespace OberonAmsterdam\ManyToMany;
 use Craft;
 use yii\base\Event;
 use craft\services\Fields;
-use Craft\base\Plugin as BasePlugin;
+use craft\base\Plugin as BasePlugin;
 use craft\events\RegisterComponentTypesEvent;
 use OberonAmsterdam\ManyToMany\fields\ManyToManyField;
 use OberonAmsterdam\ManyToMany\services\ManyToManyService;
