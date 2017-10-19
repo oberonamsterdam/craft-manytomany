@@ -4,6 +4,22 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/) and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## 1.1.0 - 2017-10-19
+### Added
+- Change namespace to OberonAmsterdam.
+
+## 1.0.1 - 2017-09-22
+### Fixed
+- Use {{%table_name}} to when removing relations to automatically add prefix to table name.
+
+## 1.0.0 - 2017-09-20
+### Added
+- Updated to support Craft 3.
+
+## 0.1.2 - 2016-06-15
+### Added
+- Translatable text.
+
 ## 0.1.2 - 2016-06-15
 ### Added
 - Translatable text.

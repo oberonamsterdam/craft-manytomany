@@ -1,6 +1,6 @@
 <?php
 
-namespace Page8\ManyToMany\assetbundles\manytomanyfield;
+namespace OberonAmsterdam\ManyToMany\assetbundles\manytomanyfield;
 
 use craft\web\AssetBundle;
 use craft\web\assets\cp\CpAsset;
@@ -10,7 +10,7 @@ class ManyToManyFieldAsset extends AssetBundle
     /**
      * @inheritdoc
      */
-    public function init(): void
+    public function init()
     {
         $this->sourcePath = __DIR__ . '/dist';
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace Page8\ManyToMany\services;
+namespace OberonAmsterdam\ManyToMany\services;
 
 use Craft;
 use craft\db\Query;
@@ -8,7 +8,7 @@ use craft\elements\Entry;
 use craft\models\Section;
 use craft\base\Component;
 use craft\base\ElementInterface;
-use Page8\ManyToMany\fields\ManyToManyField;
+use OberonAmsterdam\ManyToMany\fields\ManyToManyField;
 
 class ManyToManyService extends Component
 {
@@ -43,7 +43,7 @@ class ManyToManyService extends Component
      * @param ManyToManyField $fieldType
      * @param ElementInterface $element
      */
-    public function saveRelationship(ManyToManyField $fieldType, ElementInterface $element): void
+    public function saveRelationship(ManyToManyField $fieldType, ElementInterface $element)
     {
         // Get element ID of the current element
         $targetId = $element->getId();

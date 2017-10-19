@@ -1,11 +1,11 @@
 <?php
 
-namespace Page8\ManyToMany\fields;
+namespace OberonAmsterdam\ManyToMany\fields;
 
 use Craft;
 use Craft\base\Field;
 use craft\elements\Entry;
-use Page8\ManyToMany\Plugin;
+use OberonAmsterdam\ManyToMany\Plugin;
 use craft\base\ElementInterface;
 
 /**
