@@ -56,9 +56,7 @@ Since this plugin relies on Craft's built in relationships, you can continue to 
 ```
 
 ## Version History
-* 0.1.2 - Added translatable text
-* 0.1.1 - Optimized the cache control. Instead of clearing all Entry types from the cache, just clears records related to the changed element
-* 0.1.0 - Initial Release
+See [CHANGELOG.md](https://raw.githubusercontent.com/oberonamsterdam/craft-manytomany/master/CHANGELOG.md).
 
 ## To Do
 1. Allow the field to work across all (or at least more) Element Types. Currently only supports Entries.
