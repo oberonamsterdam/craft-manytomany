@@ -6,7 +6,10 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 
 ## 1.1.0 - 2017-10-19
 ### Added
-- Change namespace to OberonAmsterdam.
+- Change namespace back to OberonAmsterdam.
+
+### Fixed
+- PHP 7.0 support by removing the `void` return type.
 
 ## 1.0.1 - 2017-09-22
 ### Fixed
